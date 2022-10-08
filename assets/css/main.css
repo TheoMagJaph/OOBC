@@ -32,6 +32,7 @@
 body {
     font-family: var(--font-default);
     color: var(--color-default);
+    background-color: #eaf6f6;
 }
 
 a {
@@ -524,7 +525,8 @@ section {
     .navbar .active,
     .navbar .active:focus,
     .navbar li:hover > a {
-        color: #000;
+        /* color: #000; */
+        color: brown;
     }
     .navbar .getstarted,
     .navbar .getstarted:focus {
@@ -536,7 +538,7 @@ section {
     }
     .navbar .getstarted:hover,
     .navbar .getstarted:focus:hover {
-        color: #000;
+        /* color: #000; */
         background: #d8a175;
     }
     .navbar .dropdown ul,
@@ -585,7 +587,8 @@ section {
         position: fixed;
         inset: 0;
 
-        background: #d8a175;
+        /* background: #d8a175; */
+        background: rgba(221, 145, 82, 0.6);
         z-index: 9996;
     }
 }
@@ -696,7 +699,7 @@ section {
     margin-bottom: 20px;
     background: radial-gradient(
         var(--color-primary) 50%,
-        rgba(0, 131, 116, 0.4) 52%
+        rgba(216, 161, 117, 0.5) 52%
     );
     border-radius: 50%;
     display: inline-block;
@@ -721,7 +724,7 @@ section {
     animation-timing-function: steps;
     opacity: 1;
     border-radius: 50%;
-    border: 5px solid rgba(0, 131, 116, 0.7);
+    border: 5px solid rgba(216, 161, 117, 0.6);
     top: -15%;
     left: -15%;
     background: rgba(198, 16, 0, 0);
@@ -918,7 +921,7 @@ section {
 
 .preacher .preacher-item .quote-icon-left,
 .preacher .preacher-item .quote-icon-right {
-    color: #009d8b;
+    color: rgb(216, 161, 117);
     font-size: 26px;
     line-height: 0;
 }
@@ -1589,7 +1592,8 @@ section {
 --------------------------------------------------------------*/
 
 .contact .info-container {
-    background-color: var(--color-primary);
+    /* background-color: var(--color-primary); */
+    background-color: rgba(254, 223, 92, 0.5);
     height: 100%;
     padding: 20px;
     border-radius: 10px 0 0 10px;
@@ -1598,7 +1602,8 @@ section {
 
 .contact .info-item {
     width: 100%;
-    background-color: #009282;
+    /* background-color: #009282; */
+    background-color: rgb(251, 204, 122);
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -1794,13 +1799,16 @@ section {
     border-radius: 50px;
     transition: 0.3s;
     color: #fff;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
     border: 2px solid rgba(255, 255, 255, 0.1);
+    background: var(--color-primary);
+    box-shadow: 13px 13px 20px var(--color-primary), -23px 23px 20px #5555;
 }
 
 .hero .btn-get-started:hover {
-    border-color: rgba(255, 255, 255, 0.5);
+    border-color: var(--color-primary);
+    background: var(--color-primary);
+    box-shadow: inset 6px 6px 6px rgba(85, 85, 85, 0.2),
+        inset -23px 23px 20px var(--color-primary);
 }
 
 .hero .btn-watch-video {
@@ -1885,8 +1893,7 @@ section {
 }
 
 .hero .icon-box:hover {
-    background: #1d273d;
-    background: #bb862c;
+    background: rgba(254, 223, 92, 0.5);
 }
 
 .hero .icon-box:hover .title a,
