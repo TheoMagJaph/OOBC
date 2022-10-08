@@ -292,3 +292,14 @@ document.addEventListener("DOMContentLoaded", () => {
         aos_init();
     });
 });
+
+//Function that updates the year
+
+const updateYear = () => {
+    let yearDiv = document.getElementById("yearDiv");
+    let date = new Date();
+    let currentYear = date.getFullYear();
+    console.log(currentYear);
+    yearDiv.innerHTML += ` ${currentYear}`;
+};
+updateYear();
