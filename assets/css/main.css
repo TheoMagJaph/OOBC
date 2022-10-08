@@ -17,6 +17,10 @@
     --color-secondary: #f85a40;
 }
 
+h2 {
+    color: var(--color-secondary);
+}
+
 /* #F4D4C4 */
 
 /* Smooth scroll behavior */
@@ -1896,6 +1900,18 @@ section {
 .hero .icon-box:hover .title a,
 .hero .icon-box:hover .icon {
     color: #fff;
+}
+
+/* About the church */
+
+.about h3 {
+    color: var(--color-primary);
+    margin: 15px;
+    font-size: 4vmin;
+}
+
+.about p {
+    color: #031f4a;
 }
 
 /*--------------------------------------------------------------
