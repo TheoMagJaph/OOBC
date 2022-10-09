@@ -1879,12 +1879,16 @@ section {
 
 /* Weeklys Page */
 
-.container {
+/* .container {
     max-width: 960px;
-}
+} */
 
 .weeklyDiv {
     padding: 3.5% !important;
+}
+
+.weeklyDiv h1 {
+    color: var(--color-secondary);
 }
 
 /*--------------------------------------------------------------
