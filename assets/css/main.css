@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-    color: #00b6a1;
+    color: var(--color-secondary);
     text-decoration: none;
 }
 
@@ -534,7 +534,8 @@ section {
     }
     .navbar .getstarted,
     .navbar .getstarted:focus {
-        background: var(--color-primary);
+        /* background: var(--color-primary); */
+
         padding: 8px 20px;
         border-radius: 4px;
         margin: 15px;
@@ -544,6 +545,7 @@ section {
     .navbar .getstarted:focus:hover {
         /* color: #000; */
         background: #d8a175;
+        /* background: var(--color-secondary) !important; */
     }
     .navbar .dropdown ul,
     .navbar .dropdown .dropdown ul {
@@ -877,15 +879,6 @@ section {
     margin: 0;
 }
 
-.preacher .preacher-item .stars {
-    margin: 10px 0;
-}
-
-.preacher .preacher-item .stars i {
-    color: #ffc107;
-    margin: 0 1px;
-}
-
 .preacher .preacher-item .quote-icon-left,
 .preacher .preacher-item .quote-icon-right {
     color: rgb(216, 161, 117);
@@ -926,6 +919,13 @@ section {
 
 .preacher .swiper-pagination .swiper-pagination-bullet-active {
     background-color: var(--color-primary);
+}
+
+.more,
+.more:hover,
+.more:active {
+    outline: none !important;
+    border: none !important;
 }
 
 @media (max-width: 767px) {
