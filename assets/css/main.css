@@ -921,11 +921,22 @@ section {
     background-color: var(--color-primary);
 }
 
-.more,
-.more:hover,
-.more:active {
-    outline: none !important;
+.more a,
+.more a:hover,
+.more a:active {
+    color: var(--color-secondary) !important;
+}
+
+.more-div,
+.more-div:hover,
+.more-div:active {
+    border: 1px solid #eaf6f6 !important;
+    outline: 1px solid #eaf6f6 !important;
+}
+
+.more-div .btn {
     border: none !important;
+    outline: none !important;
 }
 
 @media (max-width: 767px) {
