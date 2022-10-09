@@ -1,395 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+        <title>ROBOTRON</title>
+        <meta content="" name="description" />
+        <meta content="" name="keywords" />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Vendor CSS Files -->
+        <link
+            href="assets/vendor/bootstrap/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link
+            href="assets/vendor/glightbox/css/glightbox.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/swiper/swiper-bundle.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Template Main CSS File -->
+        <link href="assets/css/main.css" rel="stylesheet" />
     </head>
+
     <body>
-        <section id="portfolio" class="portfolio sections-bg">
-            <div class="container" data-aos="fade-up">
-                <div class="section-header">
-                    <h2>Portfolio</h2>
-                    <p>
-                        Quam sed id excepturi ccusantium dolorem ut quis dolores
-                        nisi llum nostrum enim velit qui ut et autem uia
-                        reprehenderit sunt deleniti
-                    </p>
+        <!-- ======= Header ======= -->
+        <section id="topbar" class="topbar d-flex align-items-center">
+            <div
+                class="container d-flex justify-content-center justify-content-md-between"
+            >
+                <div class="contact-info d-flex align-items-center">
+                    <i class="bi bi-envelope d-flex align-items-center"
+                        ><a href="mailto:contact@example.com"
+                            >contact@example.com</a
+                        ></i
+                    >
+                    <i class="bi bi-phone d-flex align-items-center ms-4"
+                        ><span>+1 5589 55488 55</span></i
+                    >
                 </div>
-
-                <div
-                    class="portfolio-isotope"
-                    data-portfolio-filter="*"
-                    data-portfolio-layout="masonry"
-                    data-portfolio-sort="original-order"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                >
-                    <div>
-                        <ul class="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-product">Product</li>
-                            <li data-filter=".filter-branding">Branding</li>
-                            <li data-filter=".filter-books">Books</li>
-                        </ul>
-                        <!-- End Portfolio Filters -->
-                    </div>
-
-                    <div class="row gy-4 portfolio-container">
-                        <div
-                            class="col-xl-4 col-md-6 portfolio-item filter-app"
-                        >
-                            <div class="portfolio-wrap">
-                                <a
-                                    href="assets/img/portfolio/app-1.jpg"
-                                    data-gallery="portfolio-gallery-app"
-                                    class="glightbox"
-                                    ><img
-                                        src="assets/img/portfolio/app-1.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                /></a>
-                                <div class="portfolio-info">
-                                    <h4>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            >App 1</a
-                                        >
-                                    </h4>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-                        <div
-                            class="col-xl-4 col-md-6 portfolio-item filter-product"
-                        >
-                            <div class="portfolio-wrap">
-                                <a
-                                    href="assets/img/portfolio/product-1.jpg"
-                                    data-gallery="portfolio-gallery-app"
-                                    class="glightbox"
-                                    ><img
-                                        src="assets/img/portfolio/product-1.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                /></a>
-                                <div class="portfolio-info">
-                                    <h4>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            >Product 1</a
-                                        >
-                                    </h4>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-                        <div
-                            class="col-xl-4 col-md-6 portfolio-item filter-branding"
-                        >
-                            <div class="portfolio-wrap">
-                                <a
-                                    href="assets/img/portfolio/branding-1.jpg"
-                                    data-gallery="portfolio-gallery-app"
-                                    class="glightbox"
-                                    ><img
-                                        src="assets/img/portfolio/branding-1.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                /></a>
-                                <div class="portfolio-info">
-                                    <h4>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            >Branding 1</a
-                                        >
-                                    </h4>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-                        <div
-                            class="col-xl-4 col-md-6 portfolio-item filter-books"
-                        >
-                            <div class="portfolio-wrap">
-                                <a
-                                    href="assets/img/portfolio/books-1.jpg"
-                                    data-gallery="portfolio-gallery-app"
-                                    class="glightbox"
-                                    ><img
-                                        src="assets/img/portfolio/books-1.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                /></a>
-                                <div class="portfolio-info">
-                                    <h4>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            >Books 1</a
-                                        >
-                                    </h4>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-                        <div
-                            class="col-xl-4 col-md-6 portfolio-item filter-app"
-                        >
-                            <div class="portfolio-wrap">
-                                <a
-                                    href="assets/img/portfolio/app-2.jpg"
-                                    data-gallery="portfolio-gallery-app"
-                                    class="glightbox"
-                                    ><img
-                                        src="assets/img/portfolio/app-2.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                /></a>
-                                <div class="portfolio-info">
-                                    <h4>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            >App 2</a
-                                        >
-                                    </h4>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-                        <div
-                            class="col-xl-4 col-md-6 portfolio-item filter-product"
-                        >
-                            <div class="portfolio-wrap">
-                                <a
-                                    href="assets/img/portfolio/product-2.jpg"
-                                    data-gallery="portfolio-gallery-app"
-                                    class="glightbox"
-                                    ><img
-                                        src="assets/img/portfolio/product-2.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                /></a>
-                                <div class="portfolio-info">
-                                    <h4>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            >Product 2</a
-                                        >
-                                    </h4>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-                        <div
-                            class="col-xl-4 col-md-6 portfolio-item filter-branding"
-                        >
-                            <div class="portfolio-wrap">
-                                <a
-                                    href="assets/img/portfolio/branding-2.jpg"
-                                    data-gallery="portfolio-gallery-app"
-                                    class="glightbox"
-                                    ><img
-                                        src="assets/img/portfolio/branding-2.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                /></a>
-                                <div class="portfolio-info">
-                                    <h4>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            >Branding 2</a
-                                        >
-                                    </h4>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-                        <div
-                            class="col-xl-4 col-md-6 portfolio-item filter-books"
-                        >
-                            <div class="portfolio-wrap">
-                                <a
-                                    href="assets/img/portfolio/books-2.jpg"
-                                    data-gallery="portfolio-gallery-app"
-                                    class="glightbox"
-                                    ><img
-                                        src="assets/img/portfolio/books-2.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                /></a>
-                                <div class="portfolio-info">
-                                    <h4>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            >Books 2</a
-                                        >
-                                    </h4>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-                        <div
-                            class="col-xl-4 col-md-6 portfolio-item filter-app"
-                        >
-                            <div class="portfolio-wrap">
-                                <a
-                                    href="assets/img/portfolio/app-3.jpg"
-                                    data-gallery="portfolio-gallery-app"
-                                    class="glightbox"
-                                    ><img
-                                        src="assets/img/portfolio/app-3.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                /></a>
-                                <div class="portfolio-info">
-                                    <h4>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            >App 3</a
-                                        >
-                                    </h4>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-                        <div
-                            class="col-xl-4 col-md-6 portfolio-item filter-product"
-                        >
-                            <div class="portfolio-wrap">
-                                <a
-                                    href="assets/img/portfolio/product-3.jpg"
-                                    data-gallery="portfolio-gallery-app"
-                                    class="glightbox"
-                                    ><img
-                                        src="assets/img/portfolio/product-3.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                /></a>
-                                <div class="portfolio-info">
-                                    <h4>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            >Product 3</a
-                                        >
-                                    </h4>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-                        <div
-                            class="col-xl-4 col-md-6 portfolio-item filter-branding"
-                        >
-                            <div class="portfolio-wrap">
-                                <a
-                                    href="assets/img/portfolio/branding-3.jpg"
-                                    data-gallery="portfolio-gallery-app"
-                                    class="glightbox"
-                                    ><img
-                                        src="assets/img/portfolio/branding-3.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                /></a>
-                                <div class="portfolio-info">
-                                    <h4>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            >Branding 3</a
-                                        >
-                                    </h4>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-                        <div
-                            class="col-xl-4 col-md-6 portfolio-item filter-books"
-                        >
-                            <div class="portfolio-wrap">
-                                <a
-                                    href="assets/img/portfolio/books-3.jpg"
-                                    data-gallery="portfolio-gallery-app"
-                                    class="glightbox"
-                                    ><img
-                                        src="assets/img/portfolio/books-3.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                /></a>
-                                <div class="portfolio-info">
-                                    <h4>
-                                        <a
-                                            href="portfolio-details.html"
-                                            title="More Details"
-                                            >Books 3</a
-                                        >
-                                    </h4>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Portfolio Item -->
-                    </div>
-                    <!-- End Portfolio Container -->
+                <div class="social-links d-none d-md-flex align-items-center">
+                    <a href="#" class="twitter"
+                        ><i class="bi bi-twitter"></i
+                    ></a>
+                    <a href="#" class="facebook"
+                        ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a href="#" class="instagram"
+                        ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a href="#" class="linkedin"
+                        ><i class="bi bi-linkedin"></i
+                    ></a>
                 </div>
             </div>
         </section>
-        <!-- End Portfolio Section -->
+        <!-- End Top Bar -->
+
+        <header id="header" class="header d-flex align-items-center">
+            <div
+                class="container-fluid container-xl d-flex align-items-center justify-content-between"
+            >
+                <a href="index.html" class="logo d-flex align-items-center">
+                    <!-- <img src="assets/img/logo.png" alt=""> -->
+                    <h1>ROBOTRON<span>.</span></h1>
+                </a>
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li>
+                            <a href="sermons.html" target="_blank">Sermons</a>
+                        </li>
+                        <!-- <li><a href="/sermons">Sermons</a></li> -->
+                        <li>
+                            <a href="weeklys.html" target="_blank"
+                                >Activities</a
+                            >
+                        </li>
+                        <li><a href="/">Livestream</a></li>
+                        <li><a href="/">More Sermons</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <!-- .navbar -->
+                <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+                <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+            </div>
+        </header>
+
+        <!-- ======= Our teachings Section ======= -->
+        <section id="teachings" class="teachings sections-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <h2>Our teachings</h2>
+                    <p>
+                        Aperiam dolorum et et wuia molestias qui eveniet numquam
+                        nihil porro incidunt dolores placeat sunt id nobis omnis
+                        tiledo stran delop
+                    </p>
+                </div>
+
+                <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="teaching-item position-relative">
+                            <div class="icon">
+                                <i class="bi bi-chat-square-text"></i>
+                            </div>
+                            <h3>Preacher's Name</h3>
+                            <p>
+                                Provident nihil minus qui consequatur non omnis
+                                maiores. Eos accusantium minus dolores iure
+                                perferendis tempore et consequatur....
+                            </p>
+                            <a href="#" class="readmore stretched-link"
+                                >Read more <i class="bi bi-arrow-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="teaching-item position-relative">
+                            <div class="icon">
+                                <i class="bi bi-chat-square-text"></i>
+                            </div>
+                            <h3>Preacher's Name</h3>
+                            <p>
+                                Ut autem aut autem non a. Sint sint sit facilis
+                                nam iusto sint. Libero corrupti neque eum hic
+                                non ut nesciunt dolorem.....
+                            </p>
+                            <a href="#" class="readmore stretched-link"
+                                >Read more <i class="bi bi-arrow-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="teaching-item position-relative">
+                            <div class="icon">
+                                <i class="bi bi-chat-square-text"></i>
+                            </div>
+                            <h3>Preacher's Name</h3>
+                            <p>
+                                Ut excepturi voluptatem nisi sed. Quidem fuga
+                                consequatur. Minus ea aut. Vel qui id voluptas
+                                adipisci eos earum corrupti.....
+                            </p>
+                            <a href="#" class="readmore stretched-link"
+                                >Read more <i class="bi bi-arrow-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="teaching-item position-relative">
+                            <div class="icon">
+                                <i class="bi bi-chat-square-text"></i>
+                            </div>
+                            <h3>Preacher's Name</h3>
+                            <p>
+                                Non et temporibus minus omnis sed dolor esse
+                                consequatur. Cupiditate sed error ea fuga sit
+                                provident adipisci neque.....
+                            </p>
+                            <a href="#" class="readmore stretched-link"
+                                >Read more <i class="bi bi-arrow-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="teaching-item position-relative">
+                            <div class="icon">
+                                <i class="bi bi-chat-square-text"></i>
+                            </div>
+                            <h3>Preacher's Name</h3>
+                            <p>
+                                Cumque et suscipit saepe. Est maiores autem enim
+                                facilis ut aut ipsam corporis aut. Sed animi at
+                                autem alias eius labore.....
+                            </p>
+                            <a href="#" class="readmore stretched-link"
+                                >Read more <i class="bi bi-arrow-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="teaching-item position-relative">
+                            <div class="icon">
+                                <i class="bi bi-chat-square-text"></i>
+                            </div>
+                            <h3>Preacher's Name</h3>
+                            <p>
+                                Hic molestias ea quibusdam eos. Fugiat enim
+                                doloremque aut neque non et debitis iure.
+                                Corrupti recusandae ducimus enim.....
+                            </p>
+                            <a href="#" class="readmore stretched-link"
+                                >Read more <i class="bi bi-arrow-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+                </div>
+            </div>
+        </section>
+        <!-- End Our teachings Section -->
+
+        <!-- Preloader -->
+        <div id="preloader"></div>
+
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+
+        <!--Main Script -->
+        <script src="assets/scripts/main.js"></script>
     </body>
 </html>

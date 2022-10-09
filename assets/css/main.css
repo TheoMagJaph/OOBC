@@ -765,36 +765,36 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Our Services Section
+# Our teachings Section
 --------------------------------------------------------------*/
 
-.services {
+.teachings {
     padding: 60px 0;
 }
 
-.services .service-item {
+.teachings .teaching-item {
     padding: 40px;
     background: #fff;
     height: 100%;
     border-radius: 10px;
 }
 
-.services .service-item .icon {
+.teachings .teaching-item .icon {
     width: 48px;
     height: 48px;
     position: relative;
     margin-bottom: 50px;
 }
 
-.services .service-item .icon i {
-    color: var(--color-default);
+.teachings .teaching-item .icon i {
+    color: #031f4a;
     font-size: 56px;
     transition: ease-in-out 0.3s;
     z-index: 2;
     position: relative;
 }
 
-.services .service-item .icon:before {
+.teachings .teaching-item .icon:before {
     position: absolute;
     content: "";
     height: 100%;
@@ -807,8 +807,8 @@ section {
     transition: 0.3s;
 }
 
-.services .service-item h3 {
-    color: var(--color-default);
+.teachings .teaching-item h3 {
+    color: #031f4a;
     font-weight: 700;
     margin: 0 0 20px 0;
     padding-bottom: 8px;
@@ -819,23 +819,24 @@ section {
     transition: 0.3s;
 }
 
-.services .service-item p {
+.teachings .teaching-item p {
     line-height: 24px;
     font-size: 14px;
     margin-bottom: 0;
+    color: brown;
 }
 
-.services .service-item .readmore {
+.teachings .teaching-item .readmore {
     margin-top: 15px;
     display: inline-block;
     color: var(--color-primary);
 }
 
-.services .service-item:hover .icon:before {
-    background: #00b6a1;
+.teachings .teaching-item:hover .icon:before {
+    background: var(--color-secondary);
 }
 
-.services .service-item:hover h3 {
+.teachings .teaching-item:hover h3 {
     border-color: var(--color-primary);
 }
 
